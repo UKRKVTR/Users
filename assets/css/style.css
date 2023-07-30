@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  --user-photo-size: 125px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+article {
+  max-width: 350px;
+  width: 100%;
+  min-width: 250px;
+  margin: 30px;
+  padding: 30px;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 0;
+  color: grey;
+}
+.wrappedInfo {
+  padding: 15px;
+  text-align: center;
+}
+img {
+  width: var(--user-photo-size);
+  height: var(--user-photo-size);
+  object-fit: cover;
+  border-radius: 50%;
+}
+h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: initial;
+}
+h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: initial;
+}
+a {
+  text-decoration: none;
+  color: initial;
+  font-weight: bold;
+}
+i {
+  font-size: 0.75rem;
+}
+.btnView {
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  color: #039be6;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #039be6;
+  border-radius: 20px;
+}
+.btnMake {
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+  color: white;
+  background-color: #039be6;
+  border: 2px solid #039be6;
+  border-radius: 20px;
+}
+.locatedUser {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.statusUser{
+  padding: 10px;
+}
