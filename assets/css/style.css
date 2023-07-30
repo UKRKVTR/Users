@@ -16,18 +16,30 @@ article {
   width: 100%;
   min-width: 250px;
   margin: 30px;
-  padding: 30px;
+  padding: 20px;
   box-shadow: 0 0 5px black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   flex-grow: 1;
   flex-shrink: 0;
   color: grey;
 }
+.imgUser {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto 0;
+}
+.fa-star {
+  position: relative;
+  bottom: 10px;
+  font-size: 1.5rem;
+}
 .wrappedInfo {
   padding: 15px;
-  text-align: center;
+  margin: auto 0;
 }
 img {
   width: var(--user-photo-size);
@@ -57,7 +69,7 @@ i {
   text-align: center;
   width: 200px;
   padding: 10px;
-  margin: 10px;
+  margin: auto 0 0 0;
   color: #039be6;
   background-color: rgb(255, 255, 255);
   border: 2px solid #039be6;
@@ -67,6 +79,7 @@ i {
   text-align: center;
   width: 200px;
   padding: 10px;
+  margin: 20px 0;
   color: white;
   background-color: #039be6;
   border: 2px solid #039be6;
@@ -76,6 +89,6 @@ i {
   font-size: 0.7rem;
   font-weight: bold;
 }
-.statusUser{
+.statusUser {
   padding: 10px;
 }
